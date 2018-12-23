@@ -24,9 +24,9 @@ The ipython file can be launced in google colab. The code is explained in the no
 
 
 #### Dataset format
-train.words.txt : contains train documents with a space between documents to distinguish it.
-testa.words.txt : contains test documents in the above format
-testb.words.txt : contains test documents in the above format
-train.tags.txt : contains space seperated NER tags for the train words above
-testa.tags.txt : contains space seperated NER tags for the test words above
-testb.tags.txt : contains space seperated NER tags for the test words above
+train.words.txt : contains train documents with a space between documents to distinguish it <br/>
+testa.words.txt : contains test documents in the above format<br/>
+testb.words.txt : contains test documents in the above format<br />
+train.tags.txt : contains space seperated NER tags for the train words above <br />
+testa.tags.txt : contains space seperated NER tags for the test words above<br />
+testb.tags.txt : contains space seperated NER tags for the test words above<br />
