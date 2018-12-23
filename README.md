@@ -14,18 +14,19 @@ Keeping in mind these challenges, we attempt to automate the extraction of drug-
 
 We consider the problem of drug-disease identification from a research document as a Named Entity Recognition(NER) problem. We employ the use of a deep learning sequence tagger which included a BiLSTM and CRF using a combination of GloVe word Embeddings and Character embeddings. This model is a general sequence tagger. For our dataset, we downloaded a set of published papers from the renowned journals, pre processed it and curated a database by manually tagging it.We then evaluate our results using accuracy, f1-metric, precision and recall scores.
 
+### Overview
+We trained a NER deep learning model using a BiLSTM + CRF model for ayurvedic drug disease extraction. We had to manually curate our data of Ayurvedic research articles, and tag it with Drug, Disease and Function. Curated 100 train research papers and 20 test research papers. We consider the gist of the article to be in the title and abstract, so essentially one document is preprocessed title+abstract. 
+
+
 ### Description of the files
 
 The ipython file can be launced in google colab. The code is explained in the notebook as comments and headings
 
-We trained a NER deep learning model for ayurvedic drug disease extraction. We had to manually curate our data of Ayurvedic research articles, and tag it with Drug, Disease and Function. We consider the gist of the article to be in the title and abstract, so our one document is preprocessed title+abstract.
-Curated 100 train research papers and 20 test research papers
 
-
-dataset format:
-train.words.txt = contains train documents with a space between documents to distinguish it.
-testa.words.txt = contains test documents in the above format
-testb.words.txt = contains test documents in the above format
-train.tags.txt = contains space seperated NER tags for the train words above
-testa.tags.txt = contains space seperated NER tags for the test words above
-testb.tags.txt = contains space seperated NER tags for the test words above
+#### Dataset format
+train.words.txt : contains train documents with a space between documents to distinguish it.
+testa.words.txt : contains test documents in the above format
+testb.words.txt : contains test documents in the above format
+train.tags.txt : contains space seperated NER tags for the train words above
+testa.tags.txt : contains space seperated NER tags for the test words above
+testb.tags.txt : contains space seperated NER tags for the test words above
