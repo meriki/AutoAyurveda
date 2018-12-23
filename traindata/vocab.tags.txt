@@ -1,0 +1,13 @@
+B-Dg
+B-Ds
+B-Fn
+E-Dg
+E-Ds
+E-Fn
+I-Dg
+I-Ds
+I-Fn
+O
+S-Dg
+S-Ds
+S-Fn

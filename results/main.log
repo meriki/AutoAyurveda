@@ -1,0 +1,108 @@
+Using config: {'_model_dir': 'results/model', '_tf_random_seed': None, '_save_summary_steps': 100, '_save_checkpoints_steps': None, '_save_checkpoints_secs': 120, '_session_config': allow_soft_placement: true
+graph_options {
+  rewrite_options {
+    meta_optimizer_iterations: ONE
+  }
+}
+, '_keep_checkpoint_max': 5, '_keep_checkpoint_every_n_hours': 10000, '_log_step_count_steps': 100, '_train_distribute': None, '_device_fn': None, '_protocol': None, '_eval_distribute': None, '_experimental_distribute': None, '_service': None, '_cluster_spec': <tensorflow.python.training.server_lib.ClusterSpec object at 0x7f26d3bbbf98>, '_task_type': 'worker', '_task_id': 0, '_global_id_in_cluster': 0, '_master': '', '_evaluation_master': '', '_is_chief': True, '_num_ps_replicas': 0, '_num_worker_replicas': 1}
+Not using Distribute Coordinator.
+Running training and evaluation locally (non-distributed).
+Start train and evaluate loop. The evaluate will happen after every checkpoint. Checkpoint frequency is determined based on RunConfig arguments: save_checkpoints_steps None or save_checkpoints_secs 120.
+Calling model_fn.
+Done calling model_fn.
+Create CheckpointSaverHook.
+Graph was finalized.
+Running local_init_op.
+Done running local_init_op.
+Saving checkpoints for 0 into results/model/model.ckpt.
+loss = 373.88907, step = 1
+global_step/sec: 0.90124
+loss = 47.537987, step = 101 (110.960 sec)
+Saving checkpoints for 106 into results/model/model.ckpt.
+Calling model_fn.
+Done calling model_fn.
+Starting evaluation at 2018-12-04-09:17:15
+Graph was finalized.
+Restoring parameters from results/model/model.ckpt-106
+Running local_init_op.
+Done running local_init_op.
+Finished evaluation at 2018-12-04-09:17:18
+Saving dict for global step 106: acc = 0.8873469, acc_ema = 0.8253061, f1 = 0.13218391, f1_ema = 0.025157232, global_step = 106, loss = 106.509056, pr = 0.37704918, pr_ema = 0.031578947, rc = 0.080139376, rc_ema = 0.020905923
+Saving 'checkpoint_path' summary for global step 106: results/model/model.ckpt-106
+Saving checkpoints for 184 into results/model/model.ckpt.
+Calling model_fn.
+Done calling model_fn.
+Starting evaluation at 2018-12-04-09:19:15
+Graph was finalized.
+Restoring parameters from results/model/model.ckpt-184
+Running local_init_op.
+Done running local_init_op.
+Finished evaluation at 2018-12-04-09:19:18
+Saving dict for global step 184: acc = 0.8955102, acc_ema = 0.88081634, f1 = 0.24671917, f1_ema = 0.0, global_step = 184, loss = 97.71489, pr = 0.5, pr_ema = 0.0, rc = 0.16376306, rc_ema = 0.0
+Saving 'checkpoint_path' summary for global step 184: results/model/model.ckpt-184
+global_step/sec: 0.68173
+loss = 33.62378, step = 201 (146.686 sec)
+global_step/sec: 1.23815
+loss = 36.843678, step = 301 (80.769 sec)
+Saving checkpoints for 325 into results/model/model.ckpt.
+Calling model_fn.
+Done calling model_fn.
+Starting evaluation at 2018-12-04-09:21:16
+Graph was finalized.
+Restoring parameters from results/model/model.ckpt-325
+Running local_init_op.
+Done running local_init_op.
+Finished evaluation at 2018-12-04-09:21:18
+Saving dict for global step 325: acc = 0.897551, acc_ema = 0.88285714, f1 = 0.2952381, f1_ema = 0.0, global_step = 325, loss = 91.97453, pr = 0.46616542, pr_ema = 0.0, rc = 0.21602787, rc_ema = 0.0
+Saving 'checkpoint_path' summary for global step 325: results/model/model.ckpt-325
+global_step/sec: 1.1933
+loss = 22.444921, step = 401 (83.801 sec)
+Saving checkpoints for 455 into results/model/model.ckpt.
+Skip the current checkpoint eval due to throttle secs (120 secs).
+Calling model_fn.
+Done calling model_fn.
+Starting evaluation at 2018-12-04-09:22:59
+Graph was finalized.
+Restoring parameters from results/model/model.ckpt-455
+Running local_init_op.
+Done running local_init_op.
+Finished evaluation at 2018-12-04-09:23:02
+Saving dict for global step 455: acc = 0.9012245, acc_ema = 0.88285714, f1 = 0.45126355, f1_ema = 0.0, global_step = 455, loss = 90.07383, pr = 0.4681648, pr_ema = 0.0, rc = 0.43554008, rc_ema = 0.0
+Saving 'checkpoint_path' summary for global step 455: results/model/model.ckpt-455
+Loss for final step: 25.85968.
+Calling model_fn.
+Done calling model_fn.
+Graph was finalized.
+Restoring parameters from results/model/model.ckpt-455
+Running local_init_op.
+Done running local_init_op.
+Calling model_fn.
+Done calling model_fn.
+Graph was finalized.
+Restoring parameters from results/model/model.ckpt-455
+Running local_init_op.
+Done running local_init_op.
+Calling model_fn.
+Done calling model_fn.
+Graph was finalized.
+Restoring parameters from results/model/model.ckpt-455
+Running local_init_op.
+Done running local_init_op.
+Calling model_fn.
+Done calling model_fn.
+Graph was finalized.
+Restoring parameters from results/model/model.ckpt-455
+Running local_init_op.
+Done running local_init_op.
+Calling model_fn.
+Done calling model_fn.
+Graph was finalized.
+Restoring parameters from results/model/model.ckpt-455
+Running local_init_op.
+Done running local_init_op.
+Calling model_fn.
+Done calling model_fn.
+Graph was finalized.
+Restoring parameters from results/model/model.ckpt-455
+Running local_init_op.
+Done running local_init_op.

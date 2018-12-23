@@ -1,0 +1,13 @@
+The ipython file can e launced in google colab. The code is explained in the notebook as comments and headings
+
+We trained a NER deep learning model for ayurvedic drug disease extraction. We had to manually curate our data of Ayurvedic research articles, and tag it with Drug, Disease and Function. We consider the gist of the article to be in the title and abstract, so our one document is preprocessed title+abstract.
+Curated 100 train research papers and 20 test research papers
+
+
+dataset format:
+train.words.txt = contains train documents with a space between documents to distinguish it.
+testa.words.txt = contains test documents in the above format
+testb.words.txt = contains test documents in the above format
+train.tags.txt = contains space seperated NER tags for the train words above
+testa.tags.txt = contains space seperated NER tags for the test words above
+testb.tags.txt = contains space seperated NER tags for the test words above

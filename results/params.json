@@ -1,0 +1,16 @@
+{
+    "batch_size": 5,
+    "buffer": 15000,
+    "chars": "/content/drive/My Drive/NLP Project/train/vocab.chars.txt",
+    "dim": 300,
+    "dim_chars": 100,
+    "dropout": 0.5,
+    "epochs": 25,
+    "filters": 50,
+    "glove": "/content/drive/My Drive/NLP Project/train/glove.npz",
+    "kernel_size": 3,
+    "lstm_size": 100,
+    "num_oov_buckets": 1,
+    "tags": "/content/drive/My Drive/NLP Project/train/vocab.tags.txt",
+    "words": "/content/drive/My Drive/NLP Project/train/vocab.words.txt"
+}
